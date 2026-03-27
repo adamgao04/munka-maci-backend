@@ -17,6 +17,7 @@ public class WebConfig {
                         .allowedOrigins(
                                 "http://localhost:5173",
                                 "https://munkamaci.hu",
+                                "https://www.munkamaci.hu",
                                 "https://munka-maci-frontend.vercel.app/"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
